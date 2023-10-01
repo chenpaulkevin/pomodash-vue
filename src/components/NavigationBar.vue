@@ -6,7 +6,7 @@ import MenuToClose from '~icons/line-md/menu-to-close-transition'
 import gsap from 'gsap'
 
 
-const isMenuOpen = ref(true)
+const isMenuOpen = ref(false)
 const navLinks = ref([
     { name: 'Home', url: '/' },
     { name: 'About', url: '/about' },
