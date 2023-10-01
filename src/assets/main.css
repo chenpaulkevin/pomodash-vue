@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Soulway";
+  src: url(../assets/fonts/Soulway.otf);
+}
+
+.button-primary {
+  box-shadow: 5px 5px #000000;
+  border: 1px black solid;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  padding: 0.5rem 1rem;
+}
+.button-primary:hover {
+  box-shadow: 7px 7px #000000;
+  transform: translateY(-0.25rem);
+}
+.nav-links {
+  transition: 0.2s ease-in-out;
+}
+.nav-links:hover {
+  transform: translateY(-0.25rem);
+}
